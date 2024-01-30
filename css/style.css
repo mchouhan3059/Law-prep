@@ -1,0 +1,493 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+}
+.nav{
+    width: calc(100% - 160px);
+    background: #FCD21C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 80px 0 80px;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu ul li a{
+    font-size: 18px;
+    padding: 10px 25px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.menu button {
+    padding: 14px 0 ;
+    background: red;
+    border-radius: 10px;
+    border: none;
+}
+.menu button a{
+    color: white;
+    font-size: 18px;
+}
+.menu ul li:hover .menuCONT{
+    background-color: white;
+    border-radius: 25px;
+    
+}
+.menu button:hover {
+    background-color: white;
+}
+.menu button:hover a{
+    color: red;
+}
+.topyellow{
+    background-image: url("/Images/yellow_image.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 76px;
+    padding-bottom: 127px;
+
+}
+.whatsapp{
+    position: fixed;
+    bottom: 35px;
+    left: 30px;
+}
+.label{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.leftyellow{
+    width: 50%;
+    padding-top: 125px;
+}
+.red-label{
+    background-image: url("/Images/red-label.png");
+    background-repeat: no-repeat;
+    color: white;
+    padding: 10px 15px;
+}
+.leftyellow h1{
+    font-size: 50px;
+    margin: 10px 0;
+}
+.leftyellow p{
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.demobtn button{
+    padding: 10px 25px;
+    font-size: 20PX;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.rightyellow{
+    width: 50%;
+}
+.topranked{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    margin: 2px 0% 5px 14%;
+}
+
+.topperimg{
+    width: 100%;
+    display: flex;
+
+}
+.topperimgbox{
+    width: 50%;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 6px 17px 1px;
+    
+}
+.topperimgbox img{
+    width: 95%;
+}
+.topperimgbox h5{
+    font-size: 25px;
+    margin: 5px;
+}
+.topperimgbox h6{
+    font-size: 19px;
+    color: red;
+}
+.topperimgbox1 img{
+    width: 213px;
+}
+.courses{
+    margin-top: 77px;
+    margin-bottom: 60px;
+}
+.our{
+    width: 1200px;
+    margin: auto;
+}
+.our h2{
+    font-size: 35px;
+    background-image: url("/Images/yellow-label.png");
+    background-repeat: no-repeat;
+    width: 30%;
+    margin: 100px auto;
+    padding: 10px 20px;
+}
+.courses P{
+    text-align: center;
+    margin: 35px 0;
+    line-height: 25px;
+    font-size: 20px;
+}
+.clat{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.clatbox{
+    width: 32%;
+    margin-left: 16px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px 1px black ;
+}
+.clatbox img{
+    width: 100%;
+}
+.clatbox h3{
+    padding: 5px 20px;
+    font-size: 20px;
+}
+.clatbox h6{
+    font-size: 14px;
+    padding: 5px 20px;
+}
+.banner{
+    width: 100%;
+    background-color: #F2F3F4;
+    background-image: url("/Images/curvy-top.png") ;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-bottom: 80px;
+    background-size: 300px;
+}
+.result{
+    width: 1200px;
+    margin-bottom: 65px;
+    margin: auto;
+    padding-top: 40px;
+}
+.result h2{
+    background-image: url("/Images/yellow-label.png");
+    background-repeat: no-repeat;
+    margin: 0 auto 50px auto;
+    font-size: 35px;
+    width: 30%;
+    padding: 10px 20px;
+}
+.bannerimg{
+    width: calc(100% - 20px);
+    border: 10px solid white;
+}
+.bannerimg img{
+    width: 100%;
+}
+.download{
+    width: 100%;
+    height: 300px;
+    background-color: #FCD21C;
+    margin-bottom: 150px;
+    margin-top: -1px;
+}
+.downloadcnt{
+    width: 1200px;
+    margin: auto;
+    display: flex;    
+}
+.dbox{
+    margin-top: 35px;
+    width: calc(30% - 40px );
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    box-shadow: 0 2px 10px 1px #413b3b75;
+    margin-right: 40px;
+    padding: 20px;
+    
+}
+
+.dbox p{
+    font-size: 15px;
+    margin: 8px 0px;
+}
+.dbox h6{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.dbox button{
+    padding: 10px 43px;
+    font-size: 17px;
+    border: 2px solid #FCD21C;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.dbox:hover .metrialcopy{
+    display: block;
+    margin: auto;
+    
+}
+.metrialcopy{
+    display: none;
+}
+.dbox:hover .metrial{
+    display: none;
+}
+.dbox:hover button{
+    background: #FCD21C;
+}
+.yourtube{
+    width: 100%;
+    background-image: url(/Images/curvy-top.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-bottom: 80px;
+    background-size: 237px;
+}
+.video{
+    display: flex;
+}
+.videoleft{
+    width: 56%;
+}
+.videoleft iframe{
+    padding: 2px;
+    border: 2px dashed black;
+    border-radius: 5px;
+}
+.videoright{
+    width: 44%;
+    padding: 80px 0 0 60px;
+}
+.videoright h5{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+.videoright h4{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.videoright p{
+    font-size: 17px;
+    line-height: 25px;
+}
+.section{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(252, 210, 28);
+    margin-top: -1px;
+}
+.stories{
+    width: 1200px;
+    margin: auto;
+}
+.success{
+    padding: 40px;
+}
+.success h2{
+    background-image: url(/Images/white-label.png);
+    background-repeat: no-repeat;
+    width: 448px;
+    font-size: 30px;
+    padding: 13px 54px;
+    margin: auto;
+}
+.secdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.comments1{
+    width: 30%;
+    border-radius: 0 0 25px 0px;
+    background-color: white;
+    padding: 10px 10px;
+
+}
+.comments1 p{
+    font-size: 20px;
+}
+.section1{
+    width: 100%;
+    background-color: #f2f3f4;
+}
+.news{
+    width: 1200px;
+    margin: auto;
+    padding: 50px;
+}
+
+.news h1{
+    background-image: url("/Images/yellow-label-2.png");
+    background-repeat: no-repeat;
+    width: 615px;
+    text-align: center;
+    padding: 15px 0px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.newsbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.newsseries{
+    width: 40%;
+    padding: 20px;
+    background: white;
+    margin: 0 30px 25px 0;
+    
+}
+.newsseries a{
+    display: flex;
+    justify-content: space-between;
+}
+.section2{
+    background-image: url("/Images/27336.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.law{
+    display: flex;
+    justify-content: space-between;
+}
+.lawbox{
+    background-color: #EC1D25;
+    width: 20%;
+    text-align: center;
+    padding: 30px 20px;
+    line-height: 35px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.lawbox h2{
+    font-size: 45px;
+    color: white;
+    padding-bottom: 5px;
+    transition: 1s;
+
+}
+.lawbox h4{
+    color: white;
+    font-size: 18px;
+    transition: 1s;
+
+}
+.lawbox:hover{
+    background-color: #fff;
+    scale: 1.08;
+}
+.lawbox:hover h2,.lawbox:hover h4{
+    color: black;
+} 
+
+.section3{
+    width: calc(100% - 100px);
+    background: url("/Images/get-the-best-clat.jpg") no-repeat;
+    padding: 50px;
+}
+.get{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.get h1{
+    font-size: 45px;
+}
+.get p{
+    font-size: 21px;
+    line-height: 30px;
+    padding: 15px 0;
+}
+.get button{
+    font-size: 20px;
+    padding: 12px 18px;
+    background: #EC1D25;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.footer{
+    width: 100%;
+    margin: auto;
+}
+.footer_{
+    display: flex;
+}
+.row1{
+    width: calc(31% - 40px);
+    margin: 15px 40px 0 0 ;
+}
+.rowcol{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.rowcol .img{
+    width: 280px;
+    padding-right: 10px;
+}
+.rowcol img{
+    width: 100%;
+}
+.row1 p{
+    font-size: 17px;
+}
+.row2{
+    width: 22%;
+}
+.row2 h3{
+    padding-bottom: 10px;
+}
+.row2 ul{
+    line-height: 35px;
+    padding: 10px 0 0 18px;
+}
+.contactus i{
+    padding-right: 10px;
+}
+.contactus .facebook{
+    width: 18px;
+    height: 18px;
+    background: #4b76bd;
+    padding: 8px;
+    border-radius: 5px;
+}
+.contactus img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
